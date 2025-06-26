@@ -1,0 +1,10 @@
+server:
+  port: 8443
+  servlet:
+    context-path: /micro-hello
+  ssl:
+    key-store: classpath:saludo.p12
+    key-store-password: 2006702231
+    key-store-type: PKCS12
+    enabled: true
+

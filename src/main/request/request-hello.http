@@ -1,0 +1,6 @@
+GET http://localhost:8080/micro-hello/api/ciudades
+Context-Type: application/json
+###
+
+GET https://localhost:8443/micro-hello/api/ciudades
+Context-Type: application/json
