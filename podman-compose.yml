@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  hello-tls-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: hello-tls-local
+    ports:
+      - "8443:8443"
+    expose:
+      - "8443"
